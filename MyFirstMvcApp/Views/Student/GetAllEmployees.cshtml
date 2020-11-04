@@ -1,0 +1,14 @@
+﻿@using MyFirstMvcApp.Models
+@model List<EmployeeModel>
+@{
+    ViewBag.Title = "GetAllEmployees";
+}
+
+<h2>GetAllEmployees</h2>
+
+@foreach (var emp in Model)
+{
+    @emp.EmpId<br />
+    @emp.EmpName<br />
+    @emp.EmpSalary<br />
+}

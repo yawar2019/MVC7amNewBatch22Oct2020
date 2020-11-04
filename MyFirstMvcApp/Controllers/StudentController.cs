@@ -40,7 +40,49 @@ namespace MyFirstMvcApp.Controllers
 
             List<EmployeeModel> listobj = new List<EmployeeModel>();
           
-            
+           
+            EmployeeModel obj = new Models.EmployeeModel();
+            obj.EmpId = 1;
+            obj.EmpName = "Hari";
+            obj.EmpSalary = 29000;
+
+            EmployeeModel obj1 = new Models.EmployeeModel();
+            obj1.EmpId = 2;
+            obj1.EmpName = "Chandra";
+            obj1.EmpSalary = 39000;
+
+            EmployeeModel obj2 = new Models.EmployeeModel();
+            obj2.EmpId = 3;
+            obj2.EmpName = "Poorni";
+            obj2.EmpSalary = 49000;
+
+            listobj.Add(obj);
+            listobj.Add(obj1);
+            listobj.Add(obj2);
+
+            ViewBag.info = listobj;
+          
+
+            return View();
+        }
+
+
+        public ActionResult GetEmployee()
+        {
+            EmployeeModel obj = new Models.EmployeeModel();
+            obj.EmpId = 1;
+            obj.EmpName = "Hari";
+            obj.EmpSalary = 29000;
+
+
+           
+            return View(obj);
+        }
+
+
+        public ActionResult GetAllEmployees()
+        {
+            List<EmployeeModel> listobj = new List<EmployeeModel>();
 
 
             EmployeeModel obj = new Models.EmployeeModel();
@@ -58,17 +100,13 @@ namespace MyFirstMvcApp.Controllers
             obj2.EmpName = "Poorni";
             obj2.EmpSalary = 49000;
 
+            listobj.Add(obj);
+            listobj.Add(obj1);
+            listobj.Add(obj2);
 
 
-            ViewBag.info = obj;
-            ViewBag.info = obj1;
-            ViewBag.info = obj2;
-            
 
-            return View();
+            return View(listobj);
         }
-
-
-
     }
 }
