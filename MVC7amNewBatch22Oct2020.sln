@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC7amNewBatch22Oct2020", "MVC7amNewBatch22Oct2020\MVC7amNewBatch22Oct2020.csproj", "{F1DAF09E-0A33-4D3E-B0D1-3777FFDD0456}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFirstMvcApp", "MyFirstMvcApp\MyFirstMvcApp.csproj", "{D2338145-04CE-4373-85F7-EE36BBEA59FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F1DAF09E-0A33-4D3E-B0D1-3777FFDD0456}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1DAF09E-0A33-4D3E-B0D1-3777FFDD0456}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1DAF09E-0A33-4D3E-B0D1-3777FFDD0456}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2338145-04CE-4373-85F7-EE36BBEA59FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2338145-04CE-4373-85F7-EE36BBEA59FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2338145-04CE-4373-85F7-EE36BBEA59FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2338145-04CE-4373-85F7-EE36BBEA59FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
